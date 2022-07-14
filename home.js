@@ -43,6 +43,12 @@ const skillsAll = [
     logo: "fa fa-database",
     type: "Web Development",
   },
+
+  {
+    name: "PHP",
+    logo: "fa-brands fa-php",
+    type: "Web Development",
+  },
 ];
 
 const skillTypes = [...new Set(skillsAll.map((s) => s.type))];
