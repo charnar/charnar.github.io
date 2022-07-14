@@ -16,6 +16,10 @@ body {
   font-family: "Open Sans";
   font-weight: lighter;
   background-color: var(--dark-brown);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 h1 {
