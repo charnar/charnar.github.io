@@ -168,24 +168,21 @@ a {
 @media only screen and (max-width: 800px) {
   .container-half-content {
     flex: 100%;
-  }
-
-  .container-half-left {
     justify-content: center;
   }
 
   .profile-picture {
-    margin-right: 0;
+    margin-right: 0px;
   }
 
   .container-half-content > h1 {
-    margin-left: 0;
+    margin-left: 0px;
     text-align: center;
   }
   
   .container-half-content > p {
     font-size: 20px;
-    padding-right: 0;
+    padding-right: 0px;
   }
   
 
