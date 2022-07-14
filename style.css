@@ -17,7 +17,8 @@ body {
 
 h1 {
   font-family: "Italiana";
-  font-size: 40px;
+  font-size: 60px;
+  margin-bottom: 0.4em;
 }
 
 h2 {
@@ -50,7 +51,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  height: 500px;
+  height: 450px;
 }
 
 
@@ -68,10 +69,13 @@ a {
 
 .home-cover-content > span {
   color: white;
+  font-size: 22px;
   ;
 }
-.home-cover-content > span > a {
+.home-cover-content > span > a, i {
   color: white;
+  font-size: 22px;
+  padding-right: 10px;
 }
 
 .navbar {
