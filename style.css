@@ -173,15 +173,16 @@ a {
   }
 
   .profile-picture {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .container-half-content > h1 {
-    margin-left: 0px;
+    margin-left: 0;
     text-align: center;
   }
   
   .container-half-content > p {
+    margin-left: 0;
     font-size: 20px;
     padding-right: 0px;
   }
