@@ -37,6 +37,12 @@ const skillsAll = [
     logo: "fa-brands fa-figma",
     type: "UI/UX Design",
   },
+
+  {
+    name: "MySQL",
+    logo: "fa fa-database",
+    type: "Web Development",
+  },
 ];
 
 const skillTypes = [...new Set(skillsAll.map((s) => s.type))];
