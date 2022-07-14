@@ -157,8 +157,9 @@ a {
 
 .profile-picture {
   align-self: center;
-  max-height: 500px;
-  max-width: 500px;
+  max-height: 350px;
+  max-width: 350px;
+  width: 100%;
   border-radius: 100%;
   border: 4px solid black;
   margin-right: 5%;
