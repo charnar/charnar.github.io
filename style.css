@@ -10,7 +10,7 @@
 }
 
 @keyframes slideInFromBottom {
-  0% {
+  /* 0% {
     transform: translateY(40%);
     opacity: 0;
   }
@@ -19,9 +19,12 @@
     transform: translateY(0);
     opacity: 1;
 
-  }
+  } */
 }
 
+div {
+  box-sizing: border-box;
+}
 
 
 body {
@@ -80,7 +83,7 @@ a {
   flex-direction: column;
 }
 
-.home-cover-content > h1, h2 {
+.home-cover-content > h1, h2 , .container-heading{
   color: white;
   text-align: center;
 }
@@ -140,44 +143,44 @@ a {
   animation: var(--slideInTime) ease-out 0s 1 slideInFromBottom;
   background-color: var(--yellow-paper);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin: 50px;
+  margin: 10%;
   margin-top: 70px;
   border-radius: 10px;
-  padding: 2em;
+  padding: 3em 4em;
 }
 
-.container-half {
+.container-split {
   display: flex;
   flex-wrap: wrap;
 }
 
-.container-half-content {
-  flex: 50%;
-}
-
-.container-half-left {
+.container-split-content {
   display: flex;
-  justify-content: right;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.container-half-content > h1 {
-  margin-left: 5%;
+.container-split-left {
+  flex: 25%;
 }
 
-.container-half-content > p {
-  margin-left: 5%;
+.container-split-right {
+  padding-left: 4em;
+  flex: 75%;
+}
+
+
+.container-split-content > p {
   font-size: 20px;
-  padding-right: 45%;
 }
 
 .profile-picture {
   align-self: center;
-  max-height: 350px;
-  max-width: 350px;
+  max-height: 276px;
+  max-width: 276px;
   width: 100%;
   border-radius: 100%;
   border: 3px solid black;
-  margin-right: 5%;
 }
 
 
@@ -186,6 +189,8 @@ a {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+
 .container-table > div {
   display: flex;
   justify-content: center;
@@ -203,12 +208,17 @@ font-size: 95px;
 }
 
 
-
 @media only screen and (max-width: 800px) {
   .container-information {
-    margin: 20px;
+    padding: 2em;
+    margin: 5%;
   }
-  .container-half-content {
+
+  .container-split-right {
+    padding-left: 0;
+  }
+  
+  .container-split-content {
     flex: 100%;
     justify-content: center;
   }
@@ -217,12 +227,12 @@ font-size: 95px;
     margin-right: 0;
   }
 
-  .container-half-content > h1 {
+  .container-split-content > h1 {
     margin-left: 0;
     text-align: center;
   }
   
-  .container-half-content > p {
+  .container-split-content > p {
     margin-left: 0;
     font-size: 20px;
     padding-right: 0px;
