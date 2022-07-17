@@ -52,6 +52,7 @@ h1 {
   font-family: "Italiana";
   font-size: 60px;
   margin-bottom: 0.2em;
+
 }
 
 h2 {
@@ -169,6 +170,10 @@ a {
   flex: 75%;
 }
 
+.container-information-heading {
+  margin-top: 0;
+}
+
 
 .container-split-content > p {
   font-size: 20px;
@@ -208,10 +213,14 @@ font-size: 95px;
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
   .container-information {
     padding: 2em;
     margin: 5%;
+  }
+
+  .container-information-heading {
+    margin-top: 40px;
   }
 
   .container-split-right {
