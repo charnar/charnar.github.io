@@ -41,16 +41,16 @@ body {
   background-size: 80px 80px;
   background-position: 0 0,40px 40px;
    /* End of Custom background */
-
+  overflow-x: hidden;
   width: 100%;
-  position: absolute;
+  height: 100%;
   top: 0;
   left: 0;
 }
 
 h1 {
   font-family: "Italiana";
-  font-size: 60px;
+  font-size: 56px;
   margin-bottom: 0.2em;
 
 }
@@ -92,6 +92,10 @@ a {
   text-align: center;
 }
 
+.home-cover-content > h2 {
+  font-size: 26px;
+}
+
 .home-cover-content > span {
   color: white;
   font-size: 22px;
@@ -117,7 +121,7 @@ a {
 }
 
 .navbar > a {
-  font-size: 22px;
+  font-size: 19px;
 }
 
 
@@ -193,7 +197,7 @@ a {
 
 
 .container-split-content > p {
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .profile-picture {
@@ -260,7 +264,7 @@ font-size: 95px;
   
   .container-split-content > p {
     margin-left: 0;
-    font-size: 20px;
+    font-size: 19px;
     padding-right: 0px;
   }
   
