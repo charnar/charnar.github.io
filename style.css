@@ -27,7 +27,6 @@ div {
   overflow: hidden;
 }
 
-
 body {
   margin: 0;
   padding: 0;
@@ -38,10 +37,11 @@ body {
   /* Custom background */
   background-color: #232326;
   opacity: 1;
-  background-image:  radial-gradient(#784716 2px, transparent 2px), radial-gradient(#784716 2px, #232326 2px);
+  background-image: radial-gradient(#784716 2px, transparent 2px),
+    radial-gradient(#784716 2px, #232326 2px);
   background-size: 80px 80px;
-  background-position: 0 0,40px 40px;
-   /* End of Custom background */
+  background-position: 0 0, 40px 40px;
+  /* End of Custom background */
   overflow-x: hidden;
   width: 100%;
   height: 100%;
@@ -53,7 +53,6 @@ h1 {
   font-family: "Italiana";
   font-size: 56px;
   margin-bottom: 0.2em;
-
 }
 
 h2 {
@@ -70,15 +69,15 @@ a {
 }
 
 .home-cover {
-  display: flex
+  display: flex;
   margin-top: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/home_wallpaper.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/home_wallpaper.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
   padding-bottom: 6em;
 }
-
 
 .home-cover-content {
   animation: var(--slideInTime) ease-out 0s 1 slideInFromBottom;
@@ -88,7 +87,9 @@ a {
   flex-direction: column;
 }
 
-.home-cover-content > h1, h2 , .container-heading{
+.home-cover-content > h1,
+h2,
+.container-heading {
   color: white;
   text-align: center;
 }
@@ -100,13 +101,13 @@ a {
 .home-cover-content > span {
   color: white;
   font-size: 22px;
-  ;
 }
 
 .home-cover-content > span > a {
   padding-left: 10px;
 }
-.home-cover-content > span > a, .home-cover-content > span > a > i {
+.home-cover-content > span > a,
+.home-cover-content > span > a > i {
   color: white;
   font-size: 22px;
   padding-right: 10px;
@@ -124,8 +125,6 @@ a {
 .navbar > a {
   font-size: 19px;
 }
-
-
 
 /* Button with underline spread from center animation on hover */
 .button-style-1 {
@@ -152,10 +151,10 @@ a {
 }
 
 .button-style-1:hover::before {
-  transform: scaleX(1)
+  transform: scaleX(1);
 }
 
-.container-information  {
+.container-information {
   animation: var(--slideInTime) ease-out 0s 1 slideInFromBottom;
   background-color: var(--yellow-paper);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -196,7 +195,6 @@ a {
   margin-top: 0;
 }
 
-
 .container-split-content > p {
   font-size: 19px;
 }
@@ -210,13 +208,11 @@ a {
   border: 3px solid black;
 }
 
-
 .container-table {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 
 .container-table > div {
   display: flex;
@@ -227,13 +223,11 @@ a {
   height: 150px;
   border: 2px solid black;
   border-radius: 100%;
-  }
-
-.container-table > div > i {
-font-size: 95px;
-
 }
 
+.container-table > div > i {
+  font-size: 95px;
+}
 
 @media only screen and (max-width: 850px) {
   .container-information {
@@ -248,7 +242,7 @@ font-size: 95px;
   .container-split-right {
     padding-left: 0;
   }
-  
+
   .container-split-content {
     flex: 100%;
     justify-content: center;
@@ -262,12 +256,10 @@ font-size: 95px;
     margin-left: 0;
     text-align: center;
   }
-  
+
   .container-split-content > p {
     margin-left: 0;
     font-size: 19px;
     padding-right: 0px;
   }
-  
-
 }
