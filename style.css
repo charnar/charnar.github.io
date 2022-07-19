@@ -70,6 +70,7 @@ a {
 
 .home-cover {
   display: flex;
+  flex-direction: column;
   margin-top: 0;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("images/home_wallpaper.jpg");
